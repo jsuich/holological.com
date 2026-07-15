@@ -19,9 +19,9 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 nav{border-bottom:1px solid var(--ink-800)}
 nav .wrap{display:flex;align-items:center;gap:32px;height:64px}
 nav .lockup{display:flex;align-items:center;gap:1px;color:var(--chalk-50)}
-nav .lockup img{height:22px;width:auto;display:block}
+nav .lockup img{height:22px;width:auto;display:block;margin-right:-6px}
 nav .lockup span{font-family:'Archivo',sans-serif;font-stretch:125%;font-weight:600;
-  font-size:13px;letter-spacing:.09em;transform:translateY(1px)}
+  font-size:13px;letter-spacing:.09em;transform:translateY(1px);padding-top:8px}
 nav .links{margin-left:auto;display:flex;gap:26px}
 nav .links a{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.05em;
   text-transform:uppercase;color:var(--chalk-200)}
